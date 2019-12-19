@@ -1,0 +1,6 @@
+<h1>Persons</h1>
+<ul class="persons">
+  <li *ngFor="let person of persons">
+    <a><span class="badge">{{person.firstName}} {{person.lastName}}</span> - {{person.userId}} - {{person.status}} - {{person.geslacht}} - {{person.leeftijd}}</a>
+  </li>
+</ul>
